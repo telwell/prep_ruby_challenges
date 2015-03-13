@@ -6,5 +6,5 @@ def factorial(num)
 		factorial_final *= num
 		num -= 1
 	end
-	return factorial_final
+	factorial_final
 end

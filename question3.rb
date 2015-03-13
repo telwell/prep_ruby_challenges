@@ -11,5 +11,11 @@ def uniques(array)
 		end
 		unique_array.push(test_element)
 	end
-	return unique_array
+	unique_array
 end
+
+# BETTER ANSWER
+# instead of modifying the original array
+# just use .include? to see if the element is 
+# in the unique array
+# array[0..-i]

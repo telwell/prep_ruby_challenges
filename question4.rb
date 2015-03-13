@@ -8,5 +8,5 @@ def combinations(first_array,second_array)
 			final_array << first_element + second_element
 		end
 	end
-	return final_array 
+	final_array
 end

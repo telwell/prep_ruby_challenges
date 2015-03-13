@@ -19,3 +19,5 @@ def is_prime?(num)
 		return false
 	end
 end
+
+puts is_prime?(12)

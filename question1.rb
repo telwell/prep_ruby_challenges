@@ -6,6 +6,5 @@ def power(base,exponent)
 	exponent.times do
 		final_answer *= base
 	end
-	return final_answer
+	final_answer
 end
-
